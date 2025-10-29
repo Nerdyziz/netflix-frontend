@@ -8,13 +8,13 @@ function App() {
   const [selectedOption, setSelectedOption] = useState("");
 
   const endpoints = {
-    "Movies vs TV Shows": "http://netflix-backend-21xz.onrender.com/plot/type",
-    "Top 10 Countries": "http://netflix-backend-21xz.onrender.com/plot/countries",
-    "Release Trend": "http://netflix-backend-21xz.onrender.com/plot/release_trend",
-    "Top Genres": "http://netflix-backend-21xz.onrender.com/plot/genres",
-    "Ratings Distribution": "http://netflix-backend-21xz.onrender.com/plot/ratings",
-    "Average Duration": "http://netflix-backend-21xz.onrender.com/plot/duration",
-    "Top Directors": "http://netflix-backend-21xz.onrender.com/plot/directors",
+    "Movies vs TV Shows": "https://netflix-backend-21xz.onrender.com/plot/type",
+    "Top 10 Countries": "https://netflix-backend-21xz.onrender.com/plot/countries",
+    "Release Trend": "https://netflix-backend-21xz.onrender.com/plot/release_trend",
+    "Top Genres": "https://netflix-backend-21xz.onrender.com/plot/genres",
+    "Ratings Distribution": "https://netflix-backend-21xz.onrender.com/plot/ratings",
+    "Average Duration": "https://netflix-backend-21xz.onrender.com/plot/duration",
+    "Top Directors": "https://netflix-backend-21xz.onrender.com/plot/directors",
   };
 
   const handleSelect = async (option) => {
