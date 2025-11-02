@@ -77,10 +77,11 @@ body {
 .chart-title {
   color: #ff4444;
   margin-bottom: 15px;
+  font-size: 1.2rem;
 }
 
 .chart-image {
-  width: 80%;
+  width: 90%;
   max-width: 700px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);

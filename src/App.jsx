@@ -60,13 +60,11 @@ function App() {
       {image && (
         <div className="chart-container">
           <h2 className="chart-title">{selectedOption}</h2>
-          <img src={image} alt="Netflix Chart" className="chart-image" />
+          <img src={image} alt="Netflix Chart" className="chart-image"  />
         </div>
       )}
 
-      <footer className="footer">
-        Made with ❤️ using Flask + React + Python
-      </footer>
+      
     </div>
   );
 }
