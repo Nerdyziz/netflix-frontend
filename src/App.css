@@ -1,4 +1,4 @@
-/* General styling */
+
 body {
   background-color: #141414;
   color: #ffffff;
@@ -7,16 +7,16 @@ body {
   padding: 0;
 }
 
-/* Main container */
+
 .app-container {
   text-align: center;
   padding: 40px;
 }
 
-/* Title and subtitle */
+
 .title {
   font-size: 2.5rem;
-  color: #e50914; /* Netflix red */
+  color: #e50914; 
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
@@ -27,7 +27,7 @@ body {
   font-size: 1.1rem;
 }
 
-/* Dropdown styling */
+
 .dropdown-container {
   margin-bottom: 30px;
 }
@@ -49,7 +49,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Loading text */
+
 .loading {
   font-size: 18px;
   color: #ffb347;
@@ -63,7 +63,7 @@ body {
   }
 }
 
-/* Chart section */
+
 .chart-container {
   margin-top: 40px;
   background: #1f1f1f;
@@ -92,14 +92,8 @@ body {
   transform: scale(1.03);
 }
 
-/* Footer */
-.footer {
-  margin-top: 50px;
-  color: #888;
-  font-size: 14px;
-}
 
-/* Animation */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
